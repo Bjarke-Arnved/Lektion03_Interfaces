@@ -1,11 +1,13 @@
-package model.Customer;
+package model;
 
 public class Customer implements Comparable<Customer> {
     private String name;
     private String sirName;
     private int age;
-    public Customer() {
-
+    public Customer(String name, String sirName, int age) {
+        this.name = name;
+        this.sirName = sirName;
+        this.age = age;
     }
     public String getName() {
         return name;
