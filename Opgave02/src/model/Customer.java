@@ -60,4 +60,7 @@ public class Customer implements Comparable<Customer> {
         }
         return result;
     }
+    public String toString() {
+        return name + " " + sirName + " " + age;
+    }
 }
